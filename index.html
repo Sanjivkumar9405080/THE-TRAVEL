@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="logo">      
+           Travel Explorer
+        </div>
+        <div class="tag" id="tag">Plan your dreams</div>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+      </nav>
+      <div class="sidebar" id="sidebar">
+        <div class="close-btn" id="close-btn">&times;</div>
+        <ul class="sidebar-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Packages</a></li>
+          <li><a href="#packages">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#book-now">Membership</a></li>
+          <li><a href="#review">Review</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="overlay" id="overlay"></div>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Explore the World</h1>
+            <p>Your next adventure awaits!</p>
+            <a href="#gallery" class="btn">Discover Now</a>
+        </div>
+    </section>
+      <!-- Packages Section -->
+      <section id="packages">
+        <h2 class="section-title"> Packages</h2>
+        <div class="packages-container">
+            <!-- Package 1 -->
+            <div class="package-card">
+                <div class="package-image">
+                    <img src="mumbia.jpg" alt="Beach Getaway">
+                </div>
+                <h3>Mumbia</h3>
+                <p class="description"> "Mumbai is a city of dreams. A city that never sleeps. A city that refuses to let go."</p>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p class="price">$799</p> 
+                <button class="learn-more">Book Now</button>
+            </div>
+            <!-- Package 2 -->
+            <div class="package-card">
+                <div class="package-image">
+                    <img src="hawaii.jpg" alt="Mountain Adventure">
+                </div>
+                <h3>Hawaii</h3>
+                <p>"Hawaii is not just a place, it’s a feeling. It’s the warmth of the sun, the smell of the ocean, and the calm of the islands." </p>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p class="price">$999</p>
+                <button class="learn-more">Book Now</button>
+            </div>
+            <!-- Package 3 -->
+            <div class="package-card">
+                <div class="package-image">
+                    <img src="sydney.jpg" alt="Sydney">
+                </div>
+                <h3>sydney</h3>
+                <p>"Sydney is a city where the sky kisses the ocean and the sun kisses your soul."</p>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p class="price">$599</p>
+                <button class="learn-more">Book Now</button>
+            </div>
+            <!-- Package 4 -->
+            <div class="package-card">
+                <div class="package-image">
+                    <img src="paris.jpg" alt="Paris">
+                </div>
+                <h3>Paris</h3>
+                <p>"In Paris, you can always find romance, whether in the quiet of a café or the light of the Eiffel Tower."</p>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p class="price">$599</p>
+                <button class="learn-more">Book Now</button>
+            </div>
+            <!-- Package 5 -->
+            <div class="package-card">
+                <div class="package-image">
+                    <img src="tokyo.jpg" alt="Tokyo">
+                </div>
+                <h3>Takyo</h>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>"Tokyo’s beauty is in its contrasts, where the neon lights of Shibuya pulse against the serenity of quiet gardens and temples.</p>
+                <p class="price">$599</p>
+             
+                <button class="learn-more">Book Now</button>
+            </div>
+
+            <!-- Package 6 -->
+            <div class="package-card">
+                <div class="package-image">
+                    <img src="egypt.jpg" alt="Egypt">
+                </div>
+                <h3>Egypt</h3>
+                <p>"Egypt is a land of timeless wonders, where history is carved in stone, and the past whispers through the desert winds."</p>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p class="price">$749</p>
+                <p class="description">Embark on an exciting desert safari with unique experiences.</p>
+                <button class="learn-more">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+      <!-- Services Section -->
+      <section id="services">
+        <h2 class="section-title">Our Travel Services</h2>
+        <div class="services-container">
+            <!-- Service 1 -->
+          
+             <div class="service-card">
+                <div class="service-icon">
+                    <img src="hotel icon.svg" alt="hotel">
+                </div>
+                <h3>Affordable Hotels</h3>
+                <p>"Relax in comfort, without the high price tag! Rooms starting at $49 per night."</p>
+             </div>
+             
+            <!-- Service 2 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <img src="flight icon.svg" alt="Flight">
+                </div>
+                <h3>Flight Booking</h3>
+                <p>Book your flights with ease and find the best deals!</p>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <img src="food and drinks.svg" alt="food and Drink">
+                </div>
+                <h3>Food and Drink</h3>
+                <p>"Start your day right with our hearty breakfast buffet – only $10 per person!"</p>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <img src="safety.jpg" alt="Safety guide">
+                </div>
+                <h3> Safety Guide </h3>
+                <p>Surveillance Cameras: We maintain CCTV surveillance in common areas to monitor and protect hotel premises.</p>
+            </div>
+            <!--section 5-->
+            <div class="service-card">
+                <div class="service-icon">
+                    <img src="advanture icon.png" alt="advanture">
+                </div>
+                <h3> Advanture </h3>
+                <p>Surveillance Cameras: We maintain CCTV surveillance in common areas to monitor and protect hotel premises.</p>
+            </div>
+
+
+            <!-- Service 5 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <img src="rent car.jpg" alt="Car Rental">
+                </div>
+                <h3>Car Rentals</h3>
+                <p>Rent a car to explore your travel destination at your pace.</p>
+            </div>
+        </div>
+    </section>
+
+   
+    <!-- galery section -->
+    <section id="gallery">
+        <h2 class="section-title">Explore Our Destinations</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="tajmahal.jpg" alt="Tajmahal">
+                <div class="overlay">
+                    <p class="text">TajMahal</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="WhatsApp Image 2024-12-01 at 11.26.35 AM (1).jpeg" alt="Mountain">
+                <div class="overlay">
+                    <p class="text">Majestic Mountains</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="WhatsApp Image 2024-12-01 at 11.26.22 AM.jpeg" alt="Varansi">
+                <div class="overlay">
+                    <p class="text">Varansi</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="WhatsApp Image 2024-12-01 at 11.26.32 AM.jpeg" alt="Kashmir">
+                <div class="overlay">
+                    <p class="text">Kashmir</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="WhatsApp Image 2024-12-01 at 11.26.34 AM.jpeg" alt="Desert">
+                <div class="overlay">
+                    <p class="text">Golden Deserts</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="WhatsApp Image 2024-12-01 at 11.26.22 AM (1).jpeg" alt="Desert">
+                <div class="overlay">
+                    <p class="text">Golden Deserts</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="kerla 1.webp" alt="Desert">
+                <div class="overlay">
+                    <p class="text">Golden Deserts</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="WhatsApp Image 2024-12-01 at 11.26.30 AM (1).jpeg" alt="Taj hotel">
+                <div class="overlay">
+                    <p class="text">The dream of city</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="book-now">
+        <div class="book-now-container">
+            <!-- Left Side Image -->
+            <div class="book-now-image">
+                <img src="book now.jpg" alt="Travel Destination">
+            </div>
+
+            <!-- Right Side Booking Form -->
+            <div class="book-now-form">
+                <h2 class="section-title">Book Your Dream Trip Now!</h2>
+                <p class="book-description">Fill in the details below to book your travel adventure!</p>
+
+                <!-- Booking Form -->
+                <form action="#" method="post" class="booking-form">
+                    <!-- Destination Search -->
+                    <label for="destination">Choose Your Destination:</label>
+                    <input type="text" id="destination" name="destination" placeholder="Search for places..." required>
+                    
+                    <!-- Arrival Date -->
+                    <label for="arrival">Arrival Date:</label>
+                    <input type="date" id="arrival" name="arrival" required>
+                    
+                    <!-- Departure Date -->
+                    <label for="departure">Departure Date:</label>
+                    <input type="date" id="departure" name="departure" required>
+
+                    <!-- Number of Seats -->
+                    <label for="seats">Number of Seats:</label>
+                    <select id="seats" name="seats" required>
+                        <option value="1">1 Seat</option>
+                        <option value="2">2 Seats</option>
+                        <option value="3">3 Seats</option>
+                        <option value="4">4 Seats</option>
+                        <option value="5">5 Seats</option>
+                        <option value="6">6 Seats</option>
+                    </select>
+
+                    <!-- Book Now Button -->
+                    <button type="submit" class="book-button">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+  
+     <!-- Reviews Section -->
+     <section id="review">
+        <h2 class="section-title">Review</h2>
+        <div class="reviews-container">
+            <!-- Review 1 -->
+            <div class="review-card">
+                <div class="reviewer-info">
+                    <img src="comment logo 1.jpg" alt="Reviewer 1">
+                    <div class="reviewer-name">
+                        <h3>John Doe</h3>
+                        <p class="reviewer-location">California, USA</p>
+                    </div>
+                </div>
+                <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                <p class="review-text">"Had an amazing time exploring new destinations! The trip was well-organized and the staff was wonderful. Highly recommend!"</p>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="review-card">
+                <div class="reviewer-info">
+                    <img src="comment logo 2.png" alt="Reviewer 2">
+                    <div class="reviewer-name">
+                        <h3>Susan Lee</h3>
+                        <p class="reviewer-location">Sydney, Australia</p>
+                    </div>
+                </div>
+                <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                <p class="review-text">"The hotel was fantastic, and the sightseeing tours were top-notch. I would definitely travel with them again!"</p>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="review-card">
+                <div class="reviewer-info">
+                    <img src="comment logo 3.png" alt="Reviewer 3">
+                    <div class="reviewer-name">
+                        <h3>Tommy Harris</h3>
+                        <p class="reviewer-location">London, UK</p>
+                    </div>
+                </div>
+                <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                <p class="review-text">"Absolutely fantastic experience! From start to finish, everything was perfectly planned. I will be booking again soon!"</p>
+            </div>
+
+            <!-- Review 4 -->
+            <div class="review-card">
+                <div class="reviewer-info">
+                    <img src="comment logo 4.png" alt="Reviewer 4">
+                    <div class="reviewer-name">
+                        <h3>Emily Brown</h3>
+                        <p class="reviewer-location">Toronto, Canada</p>
+                    </div>
+                </div>
+                <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                <p class="review-text">"The entire experience exceeded my expectations. Great customer service and unforgettable memories!"</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+   
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 TravelExplorer. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
